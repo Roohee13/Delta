@@ -1,0 +1,24 @@
+
+h1{
+    background-color: bisque;
+    border: 2px solid goldenrod;
+}
+@media(width:400px){
+    h1{
+        background-color: aquamarine;
+        color: blueviolet;
+    }
+
+    div{
+        height: 100px;
+        width: auto;
+        background-color: blanchedalmond;
+    }
+}
+
+@media (orientation: landscape){
+    h1{
+        background-color: brown;
+        color: blanchedalmond;
+    }
+}
